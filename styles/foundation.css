@@ -1,0 +1,53 @@
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --main-bg-color-violet: rgba(106, 76, 135, 1);
+  --main-bg-color-mauve: rgba(135, 76, 98, 1);
+  --main-bg-color-mauve-2: rgba(173, 108, 132, 1);
+  --main-bg-color-mauve-3: rgb(101, 63, 77, 1);
+  --main-bg-color-main: rgba(255, 255, 255, 0.25);
+  --main-bg-color-main-2: rgba(255, 255, 255, 0.5);
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+  color: var(--white);
+  margin: 0;
+  padding: 0;
+  background: var(--main-bg-color-violet);
+  background: linear-gradient(
+    145deg,
+    var(--main-bg-color-violet) 1%,
+    var(--main-bg-color-mauve) 100%
+  );
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+.button-primary {
+  display: inline-block;
+  background: var(--main-bg-color-mauve);
+  color: var(--white);
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.button-primary:hover {
+  background: var(--main-bg-color-mauve-2);
+}
+
+.section-title {
+  font-weight: 700;
+  margin-bottom: 10px;
+}

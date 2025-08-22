@@ -1,0 +1,101 @@
+header {
+  background: var(--main-bg-color-main);
+  padding: 20px 80px;
+  text-align: center;
+}
+
+header .title {
+  font-size: 40px;
+  font-family: "Meie Script", cursive;
+  font-weight: 500;
+}
+
+header .search-bar {
+  padding: 10px 15px;
+  background-color: var(--main-bg-color-main);
+  border-radius: 10px;
+}
+
+header .search-bar button {
+  cursor: pointer;
+}
+
+.banner {
+  background-image: url("../source/images/banner-placeholder.jpeg");
+  background-size: cover;
+  height: 500px;
+}
+
+.banner-content {
+  width: 300px;
+  background-color: var(--main-bg-color-main-2);
+  padding: 30px;
+  margin-left: 20%;
+  border-radius: 20px;
+  gap: 10px;
+  color: var(--black);
+}
+
+main {
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  background: var(--main-bg-color-main);
+}
+
+.main-section {
+  margin-bottom: 30px;
+}
+
+main .highlights-grid {
+  gap: 10px;
+}
+
+main .highlights-grid .highlight-item {
+  background: var(--main-bg-color-main-2);
+  padding: 10px;
+  gap: 5px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+main .highlights-grid .highlight-item img {
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+main .highlights-grid .highlight-item img:hover {
+  transform: scale(1.05);
+}
+
+main .articles-grid {
+  gap: 10px;
+}
+
+main .articles-grid .article-item {
+  max-width: 32.5%;
+  background: var(--main-bg-color-main-2);
+  padding: 10px;
+  gap: 5px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+main .articles-grid .article-item img {
+  width: 50%;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+main .articles-grid .article-item img:hover {
+  transform: scale(1.05);
+}
+
+footer {
+  background: var(--main-bg-color-mauve-3);
+  color: var(--white);
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
