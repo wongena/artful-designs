@@ -1,0 +1,55 @@
+/* Media query for tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+  header {
+    padding: 10px 10px;
+  }
+
+  .banner {
+    height: 300px;
+  }
+
+  .banner-content {
+    margin-left: 10%;
+  }
+
+  main .articles-grid .article-item {
+    max-width: 32%;
+  }
+}
+
+/* Media query for phones */
+@media (max-width: 767px) {
+  header {
+    padding: 10px 5px;
+  }
+
+  header .title {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  header .search-bar {
+    padding: 5px;
+  }
+
+  header .search-bar input {
+    width: 50%;
+  }
+
+  .banner {
+    height: 300px;
+  }
+
+  .banner-content {
+    margin-left: 5%;
+  }
+
+  main .articles-grid .article-item {
+    max-width: 30%;
+    font-size: 12px;
+  }
+
+  main .articles-grid .article-item h3 {
+    font-size: 14px;
+  }
+}
