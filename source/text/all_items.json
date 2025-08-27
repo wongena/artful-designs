@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Classic hoops",
+    "price": 22.0,
+    "imagePath": "./source/images/earrings/earrings2.jpeg"
+  },
+  {
+    "id": 2,
+    "name": "Elegant studs",
+    "price": 18.0,
+    "imagePath": "./source/images/earrings/earrings2.jpeg"
+  },
+  {
+    "id": 3,
+    "name": "Pearl drops",
+    "price": 25.0,
+    "imagePath": "./source/images/earrings/earrings2.jpeg"
+  },
+  {
+    "id": 4,
+    "name": "Gold twist",
+    "price": 30.0,
+    "imagePath": "./source/images/earrings/earrings2.jpeg"
+  },
+  {
+    "id": 5,
+    "name": "Silver leaves",
+    "price": 20.0,
+    "imagePath": "./source/images/earrings/earrings2.jpeg"
+  },
+  {
+    "id": 6,
+    "name": "Crystal studs",
+    "price": 16.0,
+    "imagePath": "./source/images/earrings/earrings2.jpeg"
+  },
+  {
+    "id": 7,
+    "name": "Boho tassels",
+    "price": 19.0,
+    "imagePath": "./source/images/earrings/earrings2.jpeg"
+  },
+  {
+    "id": 8,
+    "name": "Minimalist bars",
+    "price": 15.0,
+    "imagePath": "./source/images/earrings/earrings2.jpeg"
+  },
+  {
+    "id": 9,
+    "name": "Vintage blooms",
+    "price": 28.0,
+    "imagePath": "./source/images/earrings/earrings2.jpeg"
+  }
+]

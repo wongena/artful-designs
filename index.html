@@ -21,8 +21,8 @@
     <header class="flex justify-between items-center">
       <h1 class="title">Artful Designs by Irina</h1>
       <div class="search-bar">
-        <input type="text" placeholder="Search..." />
-        <button>Search</button>
+        <input type="text" placeholder="Search..." id="search-field" />
+        <button id="search-button">Search</button>
       </div>
     </header>
     <div class="banner flex items-center">
@@ -64,54 +64,12 @@
       </section>
       <section class="main-section">
             <h2 class="section-title">All articles</h2>
-            <div class="articles-grid flex flex-wrap justify-between">
-              <article class="article-item flex">
-                <img src="./source/images/earrings/earrings2.jpeg" alt="Article 1" />
-                <div class="flex flex-col items-start">
-                    <h3>Classic hoops</h3>
-                    <p>$ <i>22.00</i></p>
-                </div>
-              </article>
-                <article class="article-item flex">
-                    <img src="./source/images/earrings/earrings2.jpeg" alt="Article 2" />
-                    <div class="flex flex-col items-start">
-                        <h3>Elegant studs</h3>
-                        <p>$ <i>18.00</i></p>
-                    </div>
-                </article>
-                <article class="article-item flex">
-                    <img src="./source/images/earrings/earrings2.jpeg" alt="Article 3" />
-                    <div class="flex flex-col items-start">
-                        <h3>Stylish drops</h3>
-                        <p>$ <i>30.00</i></p>
-                    </div>
-                </article>
-                <article class="article-item flex">
-                <img src="./source/images/earrings/earrings2.jpeg" alt="Article 1" />
-                <div class="flex flex-col items-start">
-                    <h3>Classic hoops</h3>
-                    <p>$ <i>22.00</i></p>
-                </div>
-              </article>
-                <article class="article-item flex">
-                    <img src="./source/images/earrings/earrings2.jpeg" alt="Article 2" />
-                    <div class="flex flex-col items-start">
-                        <h3>Elegant studs</h3>
-                        <p>$ <i>18.00</i></p>
-                    </div>
-                </article>
-                <article class="article-item flex">
-                    <img src="./source/images/earrings/earrings2.jpeg" alt="Article 3" />
-                    <div class="flex flex-col items-start">
-                        <h3>Stylish drops</h3>
-                        <p>$ <i>30.00</i></p>
-                    </div>
-                </article>
-            </div>
+            <div id="article-list" class="articles-grid flex flex-wrap justify-between" />
         </section>
     </main>
     <footer>
       <p>2025, Artful Designs by Irina</p>
     </footer>
+    <script src="./scripts/main.js"></script>
   </body>
 </html>
