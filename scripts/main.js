@@ -1,6 +1,15 @@
 document.addEventListener("DOMContentLoaded", async function () {
   let articleList = document.getElementById("article-list");
-  let articleData = await fetch("/../source/text/all_items.json").then(
+
+  switch (document.location.hostname)
+{
+  case 'wongena.github.io': 
+    let rootFolder = '/artful-designs/source/text/all_items.json'; break;
+  default :
+    let rootFolder = '/../source/text/all_items.json'; break;
+}
+
+  let articleData = await fetch(rootFolder).then(
     (response) => response.json()
   );
 
@@ -17,6 +26,8 @@ document.addEventListener("DOMContentLoaded", async function () {
     articleList.appendChild(articleItem);
   });
 });
+
+console.log(document.location.hostname +  );
 
 document.getElementById("search-field").addEventListener("input", function () {
   let query = this.value.toLowerCase();
