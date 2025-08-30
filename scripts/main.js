@@ -31,15 +31,29 @@ document.addEventListener("DOMContentLoaded", async function () {
 document.getElementById("search-field").addEventListener("input", function () {
   let query = this.value.toLowerCase();
   let articles = document.querySelectorAll(".article-item");
+  let found = false;
 
   articles.forEach((article) => {
     let name = article.querySelector("h3").innerText.toLowerCase();
     if (name.includes(query)) {
       article.style.display = "flex";
+      found = true;
     } else {
       article.style.display = "none";
     }
   });
+
+  let infoParagraph = document.getElementById("no-results-info");
+  if (!infoParagraph) {
+    infoParagraph = document.createElement("p");
+    infoParagraph.id = "no-results-info";
+    infoParagraph.style.display = "none";
+    document.getElementById("article-list").appendChild(infoParagraph);
+  }
+
+  infoParagraph.textContent =
+    "We could find any items containing the search term: " + query;
+  infoParagraph.style.display = found ? "none" : "block";
 });
 
 document.getElementById("search-button").addEventListener("click", function () {
