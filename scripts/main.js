@@ -52,7 +52,7 @@ document.getElementById("search-field").addEventListener("input", function () {
   }
 
   infoParagraph.textContent =
-    "We could find any items containing the search term: " + query;
+    "We could not find any items containing the search term: " + query;
   infoParagraph.style.display = found ? "none" : "block";
 });
 
