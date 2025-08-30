@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", async function () {
   let articleList = document.getElementById("article-list");
-  let articleData = await fetch("../source/text/all_items.json").then(
+  let articleData = await fetch("/../source/text/all_items.json").then(
     (response) => response.json()
   );
 
