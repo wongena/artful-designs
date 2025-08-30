@@ -1,5 +1,7 @@
 header {
-  background: var(--main-bg-color-main);
+  position: sticky;
+  top: 0px;
+  background: var(--main-bg-color-violet);
   padding: 20px 80px;
   text-align: center;
 }
