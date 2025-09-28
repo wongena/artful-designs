@@ -1,0 +1,26 @@
+html {
+  min-height: 100vh;
+}
+
+main {
+  padding: 20px;
+  max-width: 800px;
+  margin: 50px auto;
+  background: var(--main-bg-color-main);
+  border-radius: 10px;
+  gap: 20px;
+}
+
+main img {
+  width: 60%;
+  border-radius: 10px;
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.product-price {
+  font-size: 24px;
+}

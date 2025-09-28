@@ -51,3 +51,27 @@ h3 {
   font-weight: 700;
   margin-bottom: 10px;
 }
+
+header {
+  position: sticky;
+  top: 0px;
+  background: var(--main-bg-color-violet);
+  padding: 20px 80px;
+  text-align: center;
+}
+
+header .title {
+  font-size: 40px;
+  font-family: "Meie Script", cursive;
+  font-weight: 500;
+}
+
+header .search-bar {
+  padding: 10px 15px;
+  background-color: var(--main-bg-color-main);
+  border-radius: 10px;
+}
+
+header .search-bar button {
+  cursor: pointer;
+}

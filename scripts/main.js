@@ -18,11 +18,13 @@ document.addEventListener("DOMContentLoaded", async function () {
     let articleItem = document.createElement("article");
     articleItem.classList.add("article-item", "flex");
     articleItem.innerHTML = `
+      <a href="product.html?id=${element.id}" class="flex">
       <img src="${element.imagePath}" alt="${element.name}" />
       <div class="flex flex-col items-start">
         <h3>${element.name}</h3>
         <p>$ <i>${element.price.toFixed(2)}</i></p>
       </div>
+      </a>
     `;
     articleList.appendChild(articleItem);
   });
