@@ -14,6 +14,8 @@ document.addEventListener("DOMContentLoaded", async function () {
 
   let articleData = await fetch(rootFolder).then((response) => response.json());
 
+  console.log(articleData);
+
   articleData.forEach((element) => {
     let articleItem = document.createElement("article");
     articleItem.classList.add("article-item", "flex");
@@ -22,7 +24,7 @@ document.addEventListener("DOMContentLoaded", async function () {
       <img src="${element.imagePath}" alt="${element.name}" />
       <div class="flex flex-col items-start">
         <h3>${element.name}</h3>
-        <p>$ <i>${element.price.toFixed(2)}</i></p>
+        <p><i>${element.price}</i></p>
       </div>
       </a>
     `;

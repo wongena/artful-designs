@@ -1,56 +1,92 @@
 [
   {
     "id": 1,
-    "name": "Classic hoops",
-    "price": 22.0,
-    "imagePath": "./source/images/earrings/earrings2.jpeg"
+    "name": "Gold hoops with white gems",
+    "price": "Per request",
+    "imagePath": "./source/images/earrings/Gold hoops with white gems.jpg"
   },
   {
     "id": 2,
-    "name": "Elegant studs",
-    "price": 18.0,
-    "imagePath": "./source/images/earrings/earrings2.jpeg"
+    "name": "Silver triangles with pink gems",
+    "price": "Per request",
+    "imagePath": "./source/images/earrings/Silver triangles with pink gems.jpg"
   },
   {
     "id": 3,
-    "name": "Pearl drops",
-    "price": 25.0,
-    "imagePath": "./source/images/earrings/earrings2.jpeg"
+    "name": "Gold hoops with blue gems",
+    "price": "Per request",
+    "imagePath": "./source/images/earrings/Gold hoops with blue gems.jpg"
   },
   {
     "id": 4,
-    "name": "Gold twist",
-    "price": 30.0,
-    "imagePath": "./source/images/earrings/earrings2.jpeg"
+    "name": "Ghosts with black and orange gems",
+    "price": "Per request",
+    "imagePath": "./source/images/earrings/Ghosts with black and orange gems.jpg"
   },
   {
     "id": 5,
-    "name": "Silver leaves",
-    "price": 20.0,
-    "imagePath": "./source/images/earrings/earrings2.jpeg"
+    "name": "Golden triangles with yellow gems",
+    "price": "Per request",
+    "imagePath": "./source/images/earrings/Golden triangles with yellow gems.jpg"
   },
   {
     "id": 6,
-    "name": "Crystal studs",
-    "price": 16.0,
-    "imagePath": "./source/images/earrings/earrings2.jpeg"
+    "name": "Drops with purple gems",
+    "price": "Per request",
+    "imagePath": "./source/images/earrings/Drops with purple gems.jpg"
   },
   {
     "id": 7,
-    "name": "Boho tassels",
-    "price": 19.0,
-    "imagePath": "./source/images/earrings/earrings2.jpeg"
+    "name": "Golden hoops with gems",
+    "price": "Per request",
+    "imagePath": "./source/images/earrings/Golden hoops with gems.jpg"
   },
   {
     "id": 8,
-    "name": "Minimalist bars",
-    "price": 15.0,
-    "imagePath": "./source/images/earrings/earrings2.jpeg"
+    "name": "Silver hoops with purple and white gems",
+    "price": "Per request",
+    "imagePath": "./source/images/earrings/Silver hoops with purple and white gems.jpg"
   },
   {
     "id": 9,
-    "name": "Vintage blooms",
-    "price": 28.0,
-    "imagePath": "./source/images/earrings/earrings2.jpeg"
+    "name": "Short drops with purple gems",
+    "price": "Per request",
+    "imagePath": "./source/images/earrings/Short drops with purple gems.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Ghost earrings with white gems",
+    "price": "Per request",
+    "imagePath": "./source/images/earrings/Ghost earrings with white gems.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Short drops with pink gems",
+    "price": "Per request",
+    "imagePath": "./source/images/earrings/Short drops with pink gems.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Golden teardrops with green gems",
+    "price": "Per request",
+    "imagePath": "./source/images/earrings/Golden teardrops with green gems.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Silver teardrops with purple gems",
+    "price": "Per request",
+    "imagePath": "./source/images/earrings/Silver teardrops with purple gems.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Ghost earrings",
+    "price": "Per request",
+    "imagePath": "./source/images/earrings/Ghost earrings.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Silver hoops with purple gems",
+    "price": "Per request",
+    "imagePath": "./source/images/earrings/Silver hoops with purple gems.jpg"
   }
 ]
